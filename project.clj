@@ -1,6 +1,6 @@
 (defproject basicsite "0.1.0-SNAPSHOT"
 
-  :description "FIXME: write description"
+  :description "Basic Portfolio Luminus Website"
   :url "http://example.com/FIXME"
 
   :dependencies [[clj-time "0.14.4"]
@@ -28,7 +28,7 @@
                  [selmer "1.11.7"]]
 
   :min-lein-version "2.0.0"
-  
+
   :source-paths ["src/clj"]
   :test-paths ["test/clj"]
   :resource-paths ["resources"]
@@ -54,7 +54,7 @@
                                  [ring/ring-devel "1.6.3"]
                                  [ring/ring-mock "0.3.2"]]
                   :plugins      [[com.jakemccrary/lein-test-refresh "0.19.0"]]
-                  
+
                   :source-paths ["env/dev/clj"]
                   :resource-paths ["env/dev/resources"]
                   :repl-options {:init-ns user}

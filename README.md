@@ -1,21 +1,21 @@
-# basicsite
+# Demo Profile Site
 
-generated using Luminus version "2.9.12.66"
-
-FIXME
+Basic barebones Portfolio site using Clojure and bootstrap
 
 ## Prerequisites
 
-You will need [Leiningen][1] 2.0 or above installed.
+You will need [Leiningen][1] 2.0 or above installed. As well as [luminus][2] 2.9 or higher.
 
 [1]: https://github.com/technomancy/leiningen
-
+[2]: http://www.luminusweb.net/
 ## Running
 
-To start a web server for the application, run:
+To start the web server, for development, run:
 
-    lein run 
+lein run
+
+Then navigate to localhost:3000 or IP:3000.
 
 ## License
 
-Copyright © 2018 FIXME
+Copyright © 2018 spcktr
