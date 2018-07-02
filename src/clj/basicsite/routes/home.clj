@@ -9,9 +9,14 @@
     "home.html" {:docs (-> "docs/docs.md" io/resource slurp)}))
 
 (defn about-page []
-  (layout/render "about.html"))
+  (layout/render
+    "about.html"))
+
+(defn new-index []
+  (layout/render
+    "newindex.html"))
 
 (defroutes home-routes
-  (GET "/" [] (home-page))
-  (GET "/about" [] (about-page)))
-
+  (GET "/" [] (new-index))
+  (GET "/about" [] (about-page))
+  (GET "/new" [] (new-index)))
